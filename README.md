@@ -111,12 +111,12 @@ If no bools used in search, AND is implied. Boolean ops have an order of evaluat
 ### Module 5 Quiz
 
 1. A search job will remain active for ___ minutes after it is run.
-...* **10**
+    * **10**
 2. Commands that create statistics and visualizations are called _______________ commands.
-...* **Transforming**
+    * **Transforming**
 3. When a search is sent to splunk, it becomes a _____.
-...* **Search Job**
+    * **Search Job**
 4. How is the asterisk used in Splunk search?
-...* **As a wild card**
+    * **As a wild card**
 5. Which following search mode toggles behavior based on the type of search being run?
-...* **Smart**
+    * **Smart**

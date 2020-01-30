@@ -16,16 +16,12 @@ Also have an IN operator. i.e. `index=web status IN ("500", "503", "505")`.
 1. What attributes describe the circled field below?
     * **It contains string values**
     * **It contains 4 values**
-
 2. Which is not a comparison operator in Splunk?
     * **?=**
-
 3. Wildcards cannot be used with field searches.
     * **False**
-
 4. Field values are case sensitive.
     * **False**
-
 5. Field names are ________.
     * **Case Sensitive**
 

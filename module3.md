@@ -8,23 +8,23 @@
 
 Apps are preconfigured environments to extend prebuilt knowledge and capabilities. Built for a specific use case. **Roles determine what a user is able to see, do, and interact with.** Three main roles:
 * Admin
-...* Can install apps, ingest data, and create knowledge objects for all users.
+    * Can install apps, ingest data, and create knowledge objects for all users.
 * Power User
-...* Can create and share knowledge objects for users of an app and do realtime searches.
+    * Can create and share knowledge objects for users of an app and do realtime searches.
 * User
-...* Will only see their own knowldege objects and those shared with them.
+    * Will only see their own knowldege objects and those shared with them.
 
 ## Module 3 Quiz
 1. You can launch and manage apps from the home app.
-...* **True**
+    * **True**
 2. The password for a newly installed Splunk instance is:
-...* **Created when you install Splunk Enterprise**
+    * **Created when you install Splunk Enterprise**
 3. This role will only see their own knowledge objects and those that have been shared with them.
-...* **User**
+    * **User**
 4. What are the three main default roles in Splunk Enterprise?
-...* **Power**
-...* **User**
-...* **Admin**
+    * **Power**
+    * **User**
+    * **Admin**
 5. Which apps ship with Splunk Enterprise?
-...* **Home App**
-...* **Search & Reporting**
+    * **Home App**
+    * **Search & Reporting**

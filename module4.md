@@ -10,13 +10,13 @@ Forwarders are out of the scope. Will be uploading in lab.
 
 ## Module 4 Quiz
 1. In most production environments, _______ will be used as the source of data input.
-...* **Forwarder**
+    * **Forwarder**
 2. Splunk knows where to break the event, where the time stamp is located and how to automatically create field value pairs using these.
-...* **Source Types**
+    * **Source Types**
 3. The monitor input option will allow you to continuously monitor files.
-...* **True**
+    * **True**
 4. Files indexed using the the upload input option get indexed _____.
-...* **Once**
+    * **Once**
 5. Splunk uses ________ to categorize the type of data being indexed.
-...* **Source Types**
+    * **Source Types**
 

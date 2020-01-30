@@ -39,7 +39,7 @@ When we get to prod, split into dedicated servers. Can scale to fit any environm
 4. Which of these is not a main component of Splunk?
     * **Compress and archive**
 5. Search requests are processed by the ___________.
-    * * **Indexers**
+    * **Indexers**
 
 # Installing Splunk
 

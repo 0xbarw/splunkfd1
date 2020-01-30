@@ -41,7 +41,7 @@ When we get to prod, split into dedicated servers. Can scale to fit any environm
 5. Search requests are processed by the ___________.
     * **Indexers**
 
-# Installing Splunk
+# Module 3: Installing Splunk
 
 * **Linux:** Click free splunk, log in, Enterprise, linux, our version of linux, can use wget, do not install as root. Untar archive in opt, and go to splunk/bin. Will use commands like `./splunk start`, `./splunk stop`, and `./splunk restart`. Can find these using `./splunk help`. Accept license, create admin username, create admin password, it will display web interface address.
 
@@ -72,7 +72,7 @@ Apps are preconfigured environments to extend prebuilt knowledge and capabilitie
     * **Home App**
     * **Search & Reporting**
 
-# Getting Data In
+# Module 4: Getting Data In
 
 Need to get data into index. Done by admin. Good idea to understand how ingest works. Upload lets us upload files directly. Only indexed once. Monitor lets us monitor files, directories, HTTP events, network ports, and scripts. Can also monitor windows specific data. Forward lets us recieve data from external forwarders. 
 
@@ -94,7 +94,7 @@ Forwarders are out of the scope. Will be uploading in lab.
 5. Splunk uses ________ to categorize the type of data being indexed.
     * **Source Types**
 
-# Basic Searching
+# Module 5: Basic Searching
 
 * Splunk Bar
 * App Bar
@@ -120,3 +120,35 @@ If no bools used in search, AND is implied. Boolean ops have an order of evaluat
     * **As a wild card**
 5. Which following search mode toggles behavior based on the type of search being run?
     * **Smart**
+
+# Module 6: Using Fields
+
+Fields sidebar shows all fields extracted at search time. Selected fields and interesting fields. Selected is most important. Host, source, sourcetype are default. A is string, # is numeral. Can click for more info. Can add to search, make report, and select. 
+
+Can refine and run better searches using fields. field names are case sensitive, field values are not. = and != can be used with numerical OR string. >, >=, <, and <= can be used with numerical fields. 
+
+NOT and != can return different results. != is for when a field does not equal something. NOT returns all events that don't have that field equalling something. 
+
+Also have an IN operator. i.e. `index=web status IN ("500", "503", "505")`.
+
+### Module 6 Lab:
+* 1301 Events ended in errors.
+
+
+### Module 6 Quiz
+1. What attributes describe the circled field below?
+    * **It contains string values**
+    * **It contains 4 values**
+
+2. Which is not a comparison operator in Splunk?
+    * **?=**
+
+3. Wildcards cannot be used with field searches.
+    * **False**
+
+4. Field values are case sensitive.
+    * **False**
+
+5. Field names are ________.
+    * **Case Sensitive**
+
